@@ -1,12 +1,16 @@
-﻿Console.WriteLine("введите число A");
-int NoA = int.Parse(Console.ReadLine());
-Console.WriteLine("введите число B");
-int NoB = int.Parse(Console.ReadLine());
-if (NoA > NoB); 
+﻿Console.WriteLine("введите первое число");
+int nomber1 = int.Parse(Console.ReadLine());
+Console.WriteLine("введите второе число");
+int nomber2 = int.Parse(Console.ReadLine());
+if (nomber1>nomber2)
 {
-    Console.WriteLine("Max=A,Min=B");
+    Console.WriteLine("Max=" + nomber1 + "," + "Min=" + nomber2);
+}
+else if (nomber2>nomber1)
+{
+    Console.WriteLine("Max=" + nomber2 + "," + "Min=" + nomber1);
 }
 else
 {
-    Console.WriteLine("Max=B,Min=A");
+    Console.WriteLine("числа равны");
 }
