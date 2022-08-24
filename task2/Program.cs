@@ -1,10 +1,8 @@
 ﻿Console.WriteLine("введите число A");
-string numberAStr = Console.ReadLine();
+int NoA = int.Parse(Console.ReadLine());
 Console.WriteLine("введите число B");
-string numberBStr = Console.ReadLine();
-int a = int.Parse(numberAStr);
-int b = int.Parse(numberBStr);
-if (a > b);
+int NoB = int.Parse(Console.ReadLine());
+if (NoA > NoB); 
 {
     Console.WriteLine("Max=A,Min=B");
 }
